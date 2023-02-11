@@ -8,7 +8,7 @@ let successMessage = "Your email has been submitted successfully!";
 /* function declarations */
 
 //initializes the elements, so they are only set one time and not for every validation
-function initFormElements() {
+function initElements() {
   errorIcon = document.getElementById("icon-error");
   messageBox = document.getElementById("message-box");
   emailContainer = document.getElementById("email-container");
